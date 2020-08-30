@@ -19,6 +19,7 @@ app.use(
     origin: process.env.CORS_ORIGIN,
   })
 );
+app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
