@@ -15,3 +15,7 @@ body {
 .marker {
   stroke: grey;
 }
+
+.popup {
+  max-width: 300px;
+}
